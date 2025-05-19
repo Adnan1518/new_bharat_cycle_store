@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Bharat Cycle Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>New Bharat Cycle Store</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+      <div class="cartoon-characters">
+        <img src="images/kid1.jpg" alt="Smiling kid on bicycle" class="kid-img">
+        <img src="images/kid2.jpg" alt="Happy child cycling" class="kid-img">
+      </div>
+      <div class="container">
+          <h2>Your Trusted Cycle Store Since 1985</h2>
+          <p>Discover the best cycles, accessories, and service in town!</p>
+          <a href="#gallery" class="btn">View Cycles</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-flex">
+            <div class="about-message">
+                <h2>About Us</h2>
+                <p style="font-size:1.1rem; color:#ff7043; margin-top:18px;">
+                    हमारे लिए हर ग्राहक परिवार का हिस्सा है।<br>
+                    "आपकी मुस्कान, हमारी पहचान!"<br>
+                    नई साइकिल की शुरुआत यहीं से करें, प्यार और भरोसे के साथ।<br>
+                    <span style="color:#43a047;">आपका स्वागत है न्यू भारत साइकिल स्टोर में!</span>
+                </p>
+            </div>
+            <img src="images/store_img.jpeg" alt="Our Storefront" class="about-store-img">
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+
+            <h3>Kids Cycles</h3>
+            <div class="gallery-scroll">
+                <img src="images/File 5.jpeg" alt="Kids Cycle 1">
+                <img src="images/File 6.jpeg" alt="Kids Cycle 2">
+                <img src="images/File 7.jpeg" alt="Kids Cycle 3">
+                <img src="images/File 8.jpeg" alt="Kids Cycle 4">
+                <img src="images/File 8.jpeg" alt="Kids Cycle 4">
+            </div>
+
+            <h3>Teens Cycles</h3>
+            <div class="gallery-scroll">
+                <img src="images/File 1.jpeg" alt="Teens Cycle 1">
+                <img src="images/File 2.jpeg" alt="Teens Cycle 2">
+                <img src="images/File 3.jpeg" alt="Teens Cycle 3">
+                <img src="images/File 4.jpeg" alt="Teens Cycle 4">
+                <img src="images/File 8.jpeg" alt="Kids Cycle 4">
+            </div>
+
+            <h3>Electric Cycles</h3>
+            <div class="gallery-scroll">
+                <img src="images/File 9.jpeg" alt="Electric Cycle 1">
+                <img src="images/File 11.jpeg" alt="Electric Cycle 2">
+                <img src="images/File 12.jpeg" alt="Electric Cycle 3">
+                <img src="images/File 13.jpeg" alt="Electric Cycle 4">
+                <img src="images/File 14.jpeg" alt="Electric Cycle 5">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-address" class="contact-address">
+        <div class="contact-address-flex">
+            <!-- Contact Us Form -->
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="आपका नाम / Your Name" required>
+                    <input type="tel" placeholder="मोबाइल नंबर / Mobile Number" pattern="[0-9]{10}" required>
+                    <textarea placeholder="संदेश / Message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- Address Box -->
+            <div class="address-box">
+                <h2>Store Address</h2>
+                <p>
+                    न्यू भारत साइकिल स्टोर<br>
+                    123, साइकिल मार्केट रोड,<br>
+                    कानपुर, उत्तर प्रदेश - 208001<br>
+                    <strong>फोन:</strong> 0123-4567890
+                </p>
+                <a href="https://goo.gl/maps/yourstorelocation" target="_blank" class="map-link">
+                    Google Map पर देखें
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="img-modal" class="img-modal">
+      <span class="img-modal-close" id="img-modal-close">&times;</span>
+      <img class="img-modal-content" id="img-modal-img" src="" alt="Large Kid Image">
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 New Bharat Cycle Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
